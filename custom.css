@@ -5,3 +5,10 @@
 .title{
     text-align: center;
 }
+body{
+    background-image:url(cloud.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:darkblue;
+    font-size:15px;
+}
