@@ -5,53 +5,51 @@
 
 .title {
     text-align: center;
+    color: #028299;
 }
 
 body {
-    background-image: url(cloud.jpg);
+    background-image: url(cloud-background-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: darkblue;
     width: 100%;
     height: 100%;
 }
-cite{
-    color:black;
-    font-size:17px;
+
+cite {
+    color: black;
+    font-size: 17px;
 }
- .carousel-inner > .item > img,
- .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
 
-   @media screen and (min-width: 1200px) {
-    h1{
-        font-size:60px;
-    }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
 
-       body{
-           font-size:25px;
-       }
-   }
-  
-    @media screen and (min-width: 970px) {
-    h1{
-        font-size:50px;
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 60px;
     }
-    a{
-        font-size:25px;
-        
+    body {
+        font-size: 25px;
     }
+}
+
+@media screen and (min-width: 970px) {
+    h1 {
+        font-size: 50px;
     }
-    
-    @media screen and (min-width: 750px) {
-    h1{
-        font-size:50px;
+    a {
+        font-size: 25px;
     }
-  
-    a{
-        font-size:21px;
-        
+}
+
+@media screen and (min-width: 750px) {
+    h1 {
+        font-size: 50px;
     }
+    a {
+        font-size: 21px;
     }
+}
