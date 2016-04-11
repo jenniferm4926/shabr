@@ -21,22 +21,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">Shabr Hot Airline</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#info">information</a></li>
-                <li><a href="#test">Testimonials</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-            </ul>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#info">information</a></li>
+                    <li><a href="#test">Testimonials</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="jumbotron">
                 <h3 class="title">Skydance Hot Air Balloon Rides</h3>
@@ -48,44 +57,130 @@
 
 
     <div class="container" id="home">
-        <a href="#home"><span style="color:lightblue"><strong>Home:</strong></span> </a>Fun for <span style="color:red"><strong>Everyone</strong></span> Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are
-        welcome!
+        <div class="title"><a href="#home"><strong><h1>Home</h1></strong> </a></div> Fun for <span style="color:red"><strong>Everyone</strong></span> Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome!
         <h3> Afraid of heights? You won't be after you slow-dance with the sky.</h3>
     </div>
 
-    <div id="info" class="container-fluid">
+    <div id="info" class="container-fluid, title">
         <a href="#info"><h1>Info</h1></a>
     </div>
 
-    <div class="container">
-        <div class="row">
-
-            <div class="col-sm-6 col-md-3">
+    <div class="container-fluid">
+        <div class="row lead well">
+            <div class="col-md-12 ">
                 <h1>Time</h1>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call
                 ahead for the exact meeting time.</div>
 
-            <div class="col-md-6 col-md-3">
+            <div class="col-md-12 ">
                 <h1>Weather</h1>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will
                 allow their balloon flight.</div>
 
-            <div class="col-md-6 col-md-3">
+            <div class="col-md-12 ">
                 <h1>Flight</h1>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</div>
 
-            <div class="col-md-6 col-md-3">
+            <div class="col-md-12 ">
                 <h1>Participation</h1>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</div>
 
         </div>
     </div>
-    <h1>Gallery</h1> [6 pictures in the img folder]
-    <div id="test"></div>
-    <a href="#test"><h1>Testimonials</h1></a>
-    <div>Just a few of our happy customers "Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H. </div>
-    <div>"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." -- Marsha N. </div>
-    <div>"Thanks so much for making our experience so perfect. I definitely want to go back again! -- Linda T.</div>
-    <div>"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!" -- Tammy P. </div>
-    <div>"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!" -- Ethel E.</div>
-    <div>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!" -- Mary C.</div>
+    <div class="title" id="Gallery">
+        <a href="#Gallery"><h1>Gallery</h1></a>
+        <div class="container">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
 
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/balloon-1.jpg" alt="Chania" width="600" height="400">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/balloon-2.jpg" alt="Chania" width="600" height="400">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/balloon-3.jpg" alt="Flower" width="600" height="400">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/balloon-4.jpg" alt="Flower" width="600" height="400">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/balloon-5.jpg" alt="Flower" width="600" height="400">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/balloon-6.jpg" alt="Flower" width="600" height="400">
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="test" class="title well well-sm container-fluid">
+        <a href="#test"><h1>Testimonials</h1></a>
+
+
+        <div>
+            <blockquote>
+                <p>Just a few of our happy customers "Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!"</p>
+                <footer><cite title="Source Title">Joan H.</cite></footer>
+            </blockquote>
+        </div>
+        <div>
+            <blockquote>
+                <p>"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." </p>
+                <footer><cite title="Source Title">Marsha N</cite></footer>
+            </blockquote>
+        </div>
+        <div>
+            <blockquote>
+                <p>"Thanks so much for making our experience so perfect. I definitely want to go back again!</p>
+                <footer><cite title="Source Title">Linda T.</cite></footer>
+
+            </blockquote>
+        </div>
+        <div>
+            <blockquote>
+                <p>"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!"</p>
+                <footer><cite title="Source Title">Tammy P.</cite></footer>
+            </blockquote>
+        </div>
+        <div>
+            <blockquote>
+                <p>"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!"</p>
+                <footer><cite title="Source Title">Ethel E.</cite></footer>
+            </blockquote>
+        </div>
+        <div>
+            <blockquote>
+                <p>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!"</p>
+                <footer><cite title="Source Title">Mary C.</cite></footer>
+            </blockquote>
+        </div>
+    </div>
 
     <div class="progress">
         <div class="progress-bar progress-bar-success" style="width: 95%">
@@ -96,7 +191,7 @@
             <span>5% negative</span>
         </div>
     </div>
-    <div id="contact">
+    <div class="title" id="contact">
         <a href="#contact">
             <h1>Contact</h1></a>
 
